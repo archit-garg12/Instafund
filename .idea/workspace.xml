@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="938fe286-61cd-4fdb-8502-181469e2360f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Release.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/androidTest/java/com/fbla/test/fblainstafund/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/AddItemActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/FBLAUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/FeedItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/MyRecyclerViewAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/OnItemClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/PostDataToLoderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/ScrollingItemActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable-hdpi/ic_action_discard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable-hdpi/ic_action_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable-hdpi/ic_action_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable-mdpi/ic_action_discard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable-mdpi/ic_action_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable-mdpi/ic_action_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable-xhdpi/ic_action_discard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable-xhdpi/ic_action_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable-xhdpi/ic_action_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable-xxhdpi/ic_action_discard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable-xxhdpi/ic_action_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable-xxhdpi/ic_action_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable/ic_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable/ic_gallery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/drawable/placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/layout/activity_scroll_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/layout/activity_scrolling_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/layout/content_scrolling_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/layout/list_row.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/menu/menu_scrolling_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/test/java/com/fbla/test/fblainstafund/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/FBLAInstaFund/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/RELEASE NOTE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Relase/bin/app-debug.apk" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/androidTest/java/com/fbla/test/fblainstafund/ExampleInstrumentedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/FBLAUtility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Relase/RELEASE NOTE.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Relase/README.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/test/java/com/fbla/test/fblainstafund/ExampleUnitTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Relase/bin/app-debug.apk">
+          <provider selected="true" editor-type-id="apk-viewer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/gradlew">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1173" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/build/intermediates/manifests/full/debug/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/androidTest/java/com/fbla/test/fblainstafund/ExampleInstrumentedTest.java" />
+        <option value="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/AddItemActivity.java" />
+        <option value="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/FBLAUtility.java" />
+        <option value="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/FeedItem.java" />
+        <option value="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/MyRecyclerViewAdapter.java" />
+        <option value="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/OnItemClickListener.java" />
+        <option value="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/PostDataToLoderManager.java" />
+        <option value="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/ScrollingItemActivity.java" />
+        <option value="$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Relase/FBLAInstaFund/app/build.gradle" />
+        <option value="$PROJECT_DIR$/Relase/FBLAInstaFund/local.properties" />
+        <option value="$PROJECT_DIR$/Relase/FBLAInstaFund/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name="Relase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name="Relase" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name="Relase" type="462c0819:PsiDirectoryNode" />
+              <item name="FBLAInstaFund" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name="Relase" type="462c0819:PsiDirectoryNode" />
+              <item name="FBLAInstaFund" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name="Relase" type="462c0819:PsiDirectoryNode" />
+              <item name="FBLAInstaFund" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name="Relase" type="462c0819:PsiDirectoryNode" />
+              <item name="FBLAInstaFund" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name="Relase" type="462c0819:PsiDirectoryNode" />
+              <item name="FBLAInstaFund" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name="Relase" type="462c0819:PsiDirectoryNode" />
+              <item name="FBLAInstaFund" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name="Relase" type="462c0819:PsiDirectoryNode" />
+              <item name="FBLAInstaFund" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fbla" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name="Relase" type="462c0819:PsiDirectoryNode" />
+              <item name="FBLAInstaFund" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fbla" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name="Relase" type="462c0819:PsiDirectoryNode" />
+              <item name="FBLAInstaFund" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name="Relase" type="462c0819:PsiDirectoryNode" />
+              <item name="FBLAInstaFund" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Release" type="462c0819:PsiDirectoryNode" />
+              <item name="Relase" type="462c0819:PsiDirectoryNode" />
+              <item name="FBLAInstaFund" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gargk\Downloads\Release\Relase\FBLAInstaFund" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="C:/Users/gargk/Downloads/Release/Relase/FBLAInstaFund/app/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Relase/FBLAInstaFund/app/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.C:/Users/gargk/Downloads/Release/Relase/FBLAInstaFund/app/build.gradle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="938fe286-61cd-4fdb-8502-181469e2360f" name="Default Changelist" comment="" />
+      <created>1555727418805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555727418805</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="68" y="20" width="1400" height="784" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32985073" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Run" visible="true" weight="0.3297546" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Assistant" weight="0.33507463" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/AddItemActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/FeedItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/MyRecyclerViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/OnItemClickListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/PostDataToLoderManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1457">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/ScrollingItemActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2525">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/androidTest/java/com/fbla/test/fblainstafund/ExampleInstrumentedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/FBLAUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/main/java/com/fbla/test/fblainstafund/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/RELEASE NOTE.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/src/test/java/com/fbla/test/fblainstafund/ExampleUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/FBLAInstaFund/app/build/intermediates/manifests/full/debug/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Relase/bin/app-debug.apk">
+      <provider selected="true" editor-type-id="apk-viewer" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Release</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

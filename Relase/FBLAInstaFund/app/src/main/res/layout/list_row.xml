@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    cardview:cardCornerRadius="2dp"
+    cardview:cardElevation="3dp"
+    cardview:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/parentView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/thumbnail"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:orientation="vertical">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:text="Item "
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="#444"
+                        android:textSize="18dp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="#444"
+                        android:textSize="18dp"
+                        android:padding="8dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+
+                    <ImageButton
+                        android:id="@+id/delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_discard"
+                        android:layout_marginRight="10dp"
+                        />
+
+
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:text="Price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="#444"
+                        android:textSize="18dp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:id="@+id/itemPrice"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="#444"
+                        android:textSize="18dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:text="State"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="#444"
+                        android:textSize="18dp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:id="@+id/itemState"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="#444"
+                        android:textSize="18dp"
+                        android:padding="8dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:text="Desc "
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="#444"
+                        android:textSize="18dp"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:id="@+id/itemDesc"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="#444"
+                        android:textSize="18dp"
+                        android:padding="8dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp">
+
+                    <Button
+                        android:id="@+id/comment"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/action_comment"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/buy"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/action_buy"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+            </TableLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/placeholder"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:adjustViewBounds="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
